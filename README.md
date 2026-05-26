@@ -6,7 +6,7 @@ goal: cheese shop manages cheese stock and customer orders
 cheese-shop-cli.c++: user interface for command line program that runs in terminal \
 cheese-shop-test.c++: unit test program for member functions in cheese-shop.c++ \
 cheese-shop.c++: main procedures for cheese and order management \
-cheese-shop.h: essential utilities \
+cheese-shop.h: essential utilities for cheese-shop.c++
 
 0.   required tools to setup splashkit: <code> curl git clang </code>
 
