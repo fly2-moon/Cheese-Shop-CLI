@@ -18,7 +18,8 @@ for Mac OS: https://programmers.guide/book/appendix/0-manual-installation/2-1-se
 2.    clone the repository: \
 <code>git clone https://github.com/twilight-24-7/Cheese-Shop-CLI.git</code>
 
-4.    compile and run: \
+4.    compile and run:
+
 (cheese-shop-cli.c++) \
 <code>clang++ cheese-shop.c++ cheese-shop-cli.c++ -o cheese-shop-cli -std=c++23 -l SplashKit -Wall </code> \
 <code>./cheese-shop-cli</code>
@@ -26,3 +27,8 @@ for Mac OS: https://programmers.guide/book/appendix/0-manual-installation/2-1-se
 (cheese-shop-test.c++) \
 <code>clang++ cheese-shop.c++ cheese-shop-test.c++ -o cheese-shop-test -std=c++23 -l SplashKit  -Wall</code> \
 <code>./cheese-shop-test</code>
+
+to debug program, use gdb (GNU debugger):\
+<code>gdb ./(any executable file)</code> (recommended)\
+or\
+<code>lldb ./(any executable file)</code>
