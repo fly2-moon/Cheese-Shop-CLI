@@ -28,7 +28,7 @@ for Mac OS: https://programmers.guide/book/appendix/0-manual-installation/2-1-se
 <code>clang++ cheese-shop.c++ cheese-shop-test.c++ -o cheese-shop-test -std=c++23 -l SplashKit  -Wall</code> \
 <code>./cheese-shop-test</code>
 
-to debug program, use gdb (GNU debugger):\
+to debug program, use gdb (GNU debugger) or lldb:\
 <code>gdb ./(any executable file)</code> (recommended)\
 or\
 <code>lldb ./(any executable file)</code>
