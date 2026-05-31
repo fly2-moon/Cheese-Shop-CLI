@@ -16,7 +16,7 @@ for Windows: https://programmers.guide/book/appendix/0-manual-installation/2-5-s
 for Mac OS: https://programmers.guide/book/appendix/0-manual-installation/2-1-setup-macos/
 
 2.    clone the repository: \
-<code>git clone https://github.com/twilight-24-7/Cheese-Shop-CLI.git</code>
+<code>git clone https://github.com/fly2-moon/Cheese-Shop-CLI.git</code>
 
 4.    compile and run:
 
